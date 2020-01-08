@@ -1,0 +1,464 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p, h1,h2,h3,h4,h5,h6,label,ul,li{
+  margin: 0px;
+}
+li{list-style-type: none;}
+a:hover{
+  text-decoration: none;
+}
+/*--------------------------------------------header-------------------------------------*/
+.header{
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.header-wrap{
+  margin-top: 24px;
+  margin-bottom: 126px;
+}
+
+.header-wrap-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-header ul{
+  display: flex;
+  align-items: center;
+}
+
+.menu-header ul li{
+  margin-right: 40px;
+}
+
+.menu-header ul li a p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.language a{
+  display: flex;
+  align-items: center;
+}
+.language a p{
+  margin-left: 5px;
+}
+
+.registration a{
+  display: block;
+  padding: 10px 24px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.menu-header ul .registration a p{
+  color: #084388;
+}
+
+.header-wrap-mid{
+  display: flex;
+  margin-top: 90px;
+}
+
+.content-header-left{
+  margin-right: 122px;
+}
+
+.content-header-left h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 24px;
+    color: #084388;
+}
+
+.content-header-left p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.content-header-left a{
+    margin-top: 24px;
+    padding: 20px 48px;
+    display: inline-block;
+    background: #084388;
+    border-radius: 32px;
+    width: 240px;
+}
+
+.content-header-left a h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.pushy-link a{
+    border-bottom: 1px solid #716e6e;
+    display: flex;
+    align-items: center;
+}
+.pushy-content .lang a{
+  display: flex;
+  align-items: center;
+}
+
+.lang a img{
+    margin-right: 5px;
+}
+
+.pushy-link a p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-menu-header{
+    width: 40px;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.wrap-header{
+    display: flex;
+    align-items: center;
+}
+
+.btn-drop a{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-drop{
+  display: none;
+}
+
+/*--------------------------------------------partner-distribution-------------------------------------*/
+
+.partner{
+  padding-top: 40px;
+  background: #F1F3F5;
+  padding-bottom: 80px;
+}
+
+.partner-header,.distribution-header{
+    margin-bottom: 47px;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #232731;
+}
+
+.box-partner-top img{
+  margin-bottom: 87px;
+}
+
+.distribution{
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+/*--------------------------------------------footer-------------------------------------*/
+
+.footer{
+  background: #3969A0;
+  padding: 40px 0;
+}
+
+.info-company,.info-pay,.info-service{
+  margin-top: 40px;
+}
+.info-concern{
+  margin-top: 24px;
+}
+
+.info-company p, .info-concern p, .info-service p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.info-company .title-info,.info-concern .title-info{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.info-pay p,.info-service .title-service{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.img-pay-top{
+  margin-bottom: 40px;
+}
+
+.first-pay{
+  margin-right: 40px;
+}
+
+
+/*--------------------------------------------header-intro-contact-------------------------------------*/
+.header-top{
+    position: relative;
+}
+
+.header-top .header-wrap{
+  margin-top: 24px;
+  margin-bottom: 28px;
+}
+
+.header-top .header-wrap-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-top .menu-header ul{
+  display: flex;
+  align-items: center;
+}
+
+.header-top .menu-header ul li{
+  margin-right: 40px;
+}
+
+.header-top .menu-header ul li a p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #9198A9;
+}
+
+.header-top .menu-header ul li a p:hover{
+  color: #084388;
+}
+
+.header-top .language a{
+  display: flex;
+  align-items: center;
+}
+.header-top .header-wrap-top .menu-header ul .language a p{
+  margin-left: 5px;
+  color: #464D5D;
+}
+
+.header-top .registration a{
+  display: block;
+  padding: 10px 24px;
+  background: #084388;
+  border-radius: 20px;
+}
+
+.header-top .header-wrap-top .menu-header ul .registration a p{
+  color: #fff;
+}
+
+
+.header-top .pushy-link a{
+    border-bottom: 1px solid #716e6e;
+    display: flex;
+    align-items: center;
+}
+.header-top .pushy-content .lang a{
+  display: flex;
+  align-items: center;
+}
+
+.header-top .lang a img{
+    margin-right: 5px;
+}
+
+.header-top .pushy-link a p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header-top .btn-menu-header{
+    width: 40px;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.header-top .wrap-header{
+    display: flex;
+    align-items: center;
+}
+
+.header-top .btn-drop a{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.header-top .btn-drop{
+  display: none;
+}
+
+
+/*--------------------------------Intro--------------------------------------------------*/
+
+.box-intro{
+  background: #F2F2F2;
+}
+
+.box-intro-header{
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.img-intro{
+  margin-right: 33px; 
+}
+
+.content-intro h2,.content-intro-mid h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #084388;
+    margin-bottom: 16px;
+}
+ .content-intro p,.title-top , .content-intro-mid p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232731;
+ }
+ .box-intro .title-top{
+  margin-bottom: 30px;
+ }
+
+.box-intro .content-intro{
+  
+ }
+
+ .box-intro .title-top h3 a{
+  color: #f39b13;
+ }
+ .box-intro .title-top h3{
+  display: inline-block;
+ }
+
+ .box-intro-mid{
+  margin-top: 40px;
+ }
+
+.item-intro ul{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #232731;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.box-item{
+  margin-bottom: 80px;
+  display: flex;
+}
+
+.item-intro{
+  width: 33.33%;
+}
+
+/*--------------------------------Contact--------------------------------------------------*/
+.box-contact{
+    margin-top: 80px;
+    margin-bottom: 200px;
+    display: flex;
+}
+
+.box-contact .img-contact{
+  margin-right: 36px;
+}
+
+.box-contact .contact-right{
+  margin-bottom: 40px;
+}
+
+.box-contact .contact-right h2, .service-right h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #084388;
+    margin-bottom: 16px;
+}
+
+.box-contact .contact-right p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232731;
+}
+
+.box-contact .service-right p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232731;
+  font-weight: bold;
+}
+.box-contact .service-right p span{
+  color: red;
+}
